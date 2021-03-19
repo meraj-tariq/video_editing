@@ -12,10 +12,6 @@ import { Root } from "./styles";
 import { ProgressContext } from "../../Components/ProgressContext";
 import { videoDimensions } from "../../Store/Actions/VideoAction";
 import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
-import Input from '@material-ui/core/Input';
-import ListItemText from '@material-ui/core/ListItemText';
-import Checkbox from '@material-ui/core/Checkbox';
 enum View {
   ratio = "ratio",
   dimension = "dimension",
@@ -175,18 +171,7 @@ export default function EditVideo() {
       },
     },
   };
-  const names = [
-    'Oliver Hansen',
-    'Van Henry',
-    'April Tucker',
-    'Ralph Hubbard',
-    'Omar Alexander',
-    'Carlos Abbott',
-    'Miriam Wagner',
-    'Bradley Wilkerson',
-    'Virginia Andrews',
-    'Kelly Snyder',
-  ];
+
 
   return (
     <Root>
